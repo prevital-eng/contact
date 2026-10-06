@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>סיירת גימלאטק – עזרה דיגיטלית לוותיקים</title>
+<meta name="description" content="מתנדבים ותיקים עוזרים לוותיקים בטלפון, בוואטסאפ ובאתרי הממשלה. בעברית, בסבלנות ובחינם.">
+<meta property="og:title" content="סיירת גימלאטק – עזרה דיגיטלית לוותיקים, בחינם">
+<meta property="og:description" content="שמרו את המספר שלנו לרגע שתצטרכו עזרה עם הטלפון.">
+<meta property="og:image" content="https://prevital-eng.github.io/contact/share.jpg">
+<meta property="og:url" content="https://prevital-eng.github.io/contact/">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#272652">
+<link rel="icon" href="logo.jpg">
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --night: #272652; --sky: #5bb4ea; --orange: #f6a623; --paper: #ffffff;
+    --ink: #1e1d3d; --soft: #eef3fb; --green: #1f9d55;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: Rubik, Arial, sans-serif; font-size: 20px; line-height: 1.55; background: var(--soft); color: var(--ink); }
+  .top { background: var(--night); color: var(--paper); text-align: center; padding: 28px 18px 34px; }
+  .top img { width: 170px; height: 170px; border-radius: 50%; display: block; margin: 0 auto 14px; }
+  .top h1 { margin: 0; font-size: 30px; line-height: 1.25; }
+  .top p { margin: 10px auto 0; max-width: 26em; font-size: 20px; color: #dfe6f5; }
+  main { max-width: 520px; margin: -18px auto 0; padding: 0 16px 40px; }
+  .box { background: var(--paper); border-radius: 22px; padding: 22px 18px; box-shadow: 0 6px 20px rgba(39,38,82,.12); }
+  .btn {
+    display: flex; align-items: center; justify-content: center; gap: 10px; width: 100%;
+    min-height: 66px; margin-bottom: 14px; padding: 12px 16px; border-radius: 999px;
+    font: inherit; font-size: 22px; font-weight: 700; text-decoration: none; text-align: center;
+    border: 3px solid var(--night); background: var(--paper); color: var(--night); cursor: pointer;
+  }
+  .btn:last-of-type { margin-bottom: 0; }
+  .btn.wa { background: var(--green); border-color: var(--green); color: #fff; }
+  .btn.save { background: var(--orange); border-color: var(--orange); color: var(--ink); }
+  .btn:focus-visible { outline: 4px solid var(--sky); outline-offset: 3px; }
+  .hint { font-size: 17px; color: #4b5170; margin: -6px 6px 16px; text-align: center; }
+  .fb { display: none; background: #fff5df; border-radius: 16px; padding: 12px 14px; font-size: 17px; margin-bottom: 16px; }
+  h2 { font-size: 23px; margin: 30px 4px 10px; color: var(--night); }
+  ul { margin: 0; padding-right: 24px; }
+  li { margin-bottom: 6px; }
+  .num { direction: ltr; unicode-bidi: embed; font-weight: 700; }
+  footer { text-align: center; font-size: 17px; color: #4b5170; padding: 10px 16px 30px; }
+</style>
+</head>
+<body>
+<header class="top">
+  <img src="logo.jpg" alt="הלוגו של סיירת גימלאטק">
+  <h1>צריכים עזרה עם הטלפון?</h1>
+  <p>מתנדבים ותיקים עוזרים לוותיקים: וואטסאפ, אפליקציות, אתרי ממשלה וזיהוי הונאות. בעברית, בסבלנות ובחינם.</p>
+</header>
+
+<main>
+  <div class="box">
+    <div class="fb" id="fbNote">כדי לשמור את איש הקשר, לחצו על שלוש הנקודות למעלה ובחרו "פתיחה בדפדפן". הכפתור הירוק עובד גם מכאן.</div>
+
+    <a class="btn wa" id="waBtn" href="#">שלחו לנו "שלום" בוואטסאפ</a>
+    <p class="hint">אחרי ההודעה הראשונה נמצא אתכם, ואתם תמצאו אותנו בקלות</p>
+
+    <a class="btn save" href="gimlatech.vcf" download="סיירת גימלאטק.vcf">שמירת גימלאטק באנשי הקשר</a>
+    <p class="hint">הטלפון ישאל אם לשמור. לוחצים "שמירה"</p>
+
+    <button class="btn" type="button" id="shareBtn">שליחה לחבר או לחברה</button>
+  </div>
+
+  <h2>במה אנחנו עוזרים</h2>
+  <ul>
+    <li>שימוש בוואטסאפ: תמונות, קבוצות ושיחות וידאו</li>
+    <li>אתרי ממשלה, קופת חולים ובנק</li>
+    <li>זיהוי הודעות חשודות והונאות ברשת</li>
+    <li>כל שאלה אחרת על הטלפון או המחשב</li>
+  </ul>
+
+  <h2>איך זה עובד</h2>
+  <p style="margin:0 4px">כותבים לנו בוואטסאפ למספר <span class="num">050-396-0685</span>, ומתנדב חוזר אליכם. אין עלות, ואף פעם לא נבקש סיסמה, קוד או פרטי אשראי.</p>
+</main>
+
+<footer>סיירת גימלאטק – מיזם התנדבותי ארצי</footer>
+
+<script>
+  var PHONE = '972503960685';
+  var PAGE = 'https://prevital-eng.github.io/contact/';
+
+  var from = (new URLSearchParams(location.search).get('from') || '').replace(/[^\w֐-׿ -]/g, '').slice(0, 40);
+  var hello = 'שלום סיירת גימלאטק, אשמח לשמור אתכם לזמן שאצטרך עזרה.' + (from ? ' (הגעתי דרך: ' + from + ')' : '');
+  document.getElementById('waBtn').href = 'https://wa.me/' + PHONE + '?text=' + encodeURIComponent(hello);
+
+  if (/FBAN|FBAV|FB_IAB|Instagram/i.test(navigator.userAgent)) {
+    document.getElementById('fbNote').style.display = 'block';
+  }
+
+  document.getElementById('shareBtn').onclick = function () {
+    var text = 'מצאתי מתנדבים שעוזרים לוותיקים עם הטלפון, בחינם. כדאי לשמור את המספר:';
+    var url = PAGE + (from ? '?from=' + encodeURIComponent(from) : '');
+    if (navigator.share) {
+      navigator.share({ title: 'סיירת גימלאטק', text: text, url: url }).catch(function () {});
+    } else {
+      location.href = 'https://wa.me/?text=' + encodeURIComponent(text + '\n' + url);
+    }
+  };
+</script>
+</body>
+</html>
